@@ -25,5 +25,9 @@
     <dimen name="icono_mundo">56dp</dimen>
     <dimen name="texto_mundo">28sp</dimen>
 
+    <dimen name="logo_splash">140dp</dimen>
+    <dimen name="icono_logo">72dp</dimen>
+    <dimen name="texto_enlace">14sp</dimen>
+
 </resources>
 

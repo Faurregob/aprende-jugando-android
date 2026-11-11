@@ -9,4 +9,10 @@
     <string name="mundo_letras">Letras</string>
     <string name="mundo_numeros">Números</string>
     <string name="mundo_cuentos">Cuentos</string>
+    <string name="login_titulo">¡Bienvenido!</string>
+    <string name="login_subtitulo">Inicia sesión para continuar</string>
+    <string name="login_olvide">¿Olvidaste tu contraseña?</string>
+    <string name="login_crear_cuenta">Crear cuenta</string>
+    <string name="login_usar_huella">Usar huella digital</string>
+    <string name="login_privacidad">Al registrarte, aceptas nuestra Política de Privacidad</string>
 </resources>

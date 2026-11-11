@@ -10,4 +10,10 @@
     <string name="mundo_letras">Letters</string>
     <string name="mundo_numeros">Numbers</string>
     <string name="mundo_cuentos">Stories</string>
+    <string name="login_titulo">Welcome!</string>
+    <string name="login_subtitulo">Log in to continue</string>
+    <string name="login_olvide">Forgot your password?</string>
+    <string name="login_crear_cuenta">Create account</string>
+    <string name="login_usar_huella">Use fingerprint</string>
+    <string name="login_privacidad">By signing up, you accept our Privacy Policy</string>
 </resources>

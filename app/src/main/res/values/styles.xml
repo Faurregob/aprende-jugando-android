@@ -27,4 +27,39 @@
         <item name="android:layout_marginStart">@dimen/espacio_m</item>
     </style>
 
+
+    <style name="Widget.AprendeJugando.Boton.Secundario" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/boton_alto</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_primario</item>
+        <item name="cornerRadius">@dimen/radio_boton</item>
+        <item name="strokeColor">@color/color_primario</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="TextoEnlace">
+        <item name="android:textSize">@dimen/texto_enlace</item>
+        <item name="android:textColor">@color/color_secundario</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/espacio_s</item>
+    </style>
+
+    <style name="Widget.AprendeJugando.Boton.Secundario" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/boton_alto</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_primario</item>
+        <item name="cornerRadius">@dimen/radio_boton</item>
+        <item name="strokeColor">@color/color_primario</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="TextoEnlace">
+        <item name="android:textSize">@dimen/texto_enlace</item>
+        <item name="android:textColor">@color/color_secundario</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/espacio_s</item>
+    </style>
+
 </resources>
