@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Espaciado -->
+    <dimen name="espacio_xs">4dp</dimen>
+    <dimen name="espacio_s">8dp</dimen>
+    <dimen name="espacio_m">16dp</dimen>
+    <dimen name="espacio_l">24dp</dimen>
+    <dimen name="espacio_xl">32dp</dimen>
+
+    <!-- Formas -->
+    <dimen name="radio_boton">24dp</dimen>
+    <dimen name="radio_tarjeta">20dp</dimen>
+
+    <!-- Texto (sp para respetar el tamaño de fuente del usuario) -->
+    <dimen name="texto_titulo">28sp</dimen>
+    <dimen name="texto_cuerpo">16sp</dimen>
+    <dimen name="texto_boton">18sp</dimen>
+    <dimen name="texto_boton_nino">32sp</dimen>
+
+    <!-- Alturas -->
+    <dimen name="boton_alto">56dp</dimen>
+    <dimen name="boton_alto_nino">88dp</dimen>
+</resources>
+

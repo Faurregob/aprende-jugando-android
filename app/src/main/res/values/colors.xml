@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Marca -->
+    <color name="color_primario">#E8590C</color>
+    <color name="color_primario_oscuro">#B8430A</color>
+    <color name="color_secundario">#1FA99B</color>
+    <color name="color_acento">#FFC93C</color>
+
+    <!-- Fondos y textos -->
+    <color name="color_fondo">#FFF8EC</color>
+    <color name="color_superficie">#FFFFFF</color>
+    <color name="color_texto">#2F2A4A</color>
+    <color name="color_texto_secundario">#6B6688</color>
+    <color name="color_sobre_primario">#FFFFFF</color>
+
+    <!-- Estados -->
+    <color name="color_exito">#2FA85B</color>
+    <color name="color_error">#D93F45</color>
+
+    <!-- Los tres mundos del niño -->
+    <color name="color_mundo_letras">#4C7CE0</color>
+    <color name="color_mundo_numeros">#EE5E9B</color>
+    <color name="color_mundo_cuentos">#8B5CD6</color>
 </resources>

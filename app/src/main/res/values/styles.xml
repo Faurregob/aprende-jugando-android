@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AprendeJugando.Boton" parent="Widget.Material3.Button">
+        <item name="android:minHeight">@dimen/boton_alto</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">@dimen/radio_boton</item>
+        <item name="backgroundTint">@color/color_primario</item>
+    </style>
+
+    <style name="Widget.AprendeJugando.Boton.Nino">
+        <item name="android:minHeight">@dimen/boton_alto_nino</item>
+        <item name="android:textSize">@dimen/texto_boton_nino</item>
+        <item name="backgroundTint">@color/color_secundario</item>
+    </style>
+
+    <style name="TextoTitulo">
+        <item name="android:textSize">@dimen/texto_titulo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_texto</item>
+    </style>
+</resources>
