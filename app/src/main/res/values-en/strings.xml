@@ -6,4 +6,8 @@
     <string name="hint_correo">Email</string>
     <string name="hint_contrasena">Password</string>
     <string name="texto_bienvenida">Hi! Let\'s learn by playing</string>
+    <string name="titulo_mundos">Choose your world!</string>
+    <string name="mundo_letras">Letters</string>
+    <string name="mundo_numeros">Numbers</string>
+    <string name="mundo_cuentos">Stories</string>
 </resources>

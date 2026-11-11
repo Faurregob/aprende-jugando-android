@@ -19,4 +19,12 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/color_texto</item>
     </style>
+
+    <style name="TextoMundo">
+        <item name="android:textSize">@dimen/texto_mundo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_sobre_primario</item>
+        <item name="android:layout_marginStart">@dimen/espacio_m</item>
+    </style>
+
 </resources>

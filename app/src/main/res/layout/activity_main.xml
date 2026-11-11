@@ -1,33 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_pantalla_degradado"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
     android:padding="@dimen/espacio_l">
 
     <TextView
-        android:id="@+id/txtBienvenida"
         style="@style/TextoTitulo"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/espacio_l"
         android:gravity="center"
-        android:text="@string/texto_bienvenida"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/btnJugar"
-        app:layout_constraintVertical_chainStyle="packed" />
+        android:text="@string/titulo_mundos" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnJugar"
-        style="@style/Widget.AprendeJugando.Boton.Nino"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/espacio_xl"
-        android:text="@string/boton_jugar"
-        app:layout_constraintTop_toBottomOf="@id/txtBienvenida"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alto_tarjeta_mundo"
+        android:layout_marginBottom="@dimen/espacio_m"
+        android:background="@drawable/bg_mundo_letras"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/espacio_m">
+
+        <ImageView
+            android:layout_width="@dimen/icono_mundo"
+            android:layout_height="@dimen/icono_mundo"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_letra_a" />
+
+        <TextView
+            style="@style/TextoMundo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mundo_letras" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alto_tarjeta_mundo"
+        android:layout_marginBottom="@dimen/espacio_m"
+        android:background="@drawable/bg_mundo_numeros"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/espacio_m">
+
+        <ImageView
+            android:layout_width="@dimen/icono_mundo"
+            android:layout_height="@dimen/icono_mundo"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_numero_5" />
+
+        <TextView
+            style="@style/TextoMundo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mundo_numeros" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alto_tarjeta_mundo"
+        android:background="@drawable/bg_mundo_cuentos"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/espacio_m">
+
+        <ImageView
+            android:layout_width="@dimen/icono_mundo"
+            android:layout_height="@dimen/icono_mundo"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_libro" />
+
+        <TextView
+            style="@style/TextoMundo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mundo_cuentos" />
+    </LinearLayout>
+</LinearLayout>

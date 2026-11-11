@@ -21,4 +21,11 @@
     <color name="color_mundo_letras">#4C7CE0</color>
     <color name="color_mundo_numeros">#EE5E9B</color>
     <color name="color_mundo_cuentos">#8B5CD6</color>
+
+
+    <!-- Degradado de fondo y efecto al tocar -->
+    <color name="color_degradado_inicio">#FFE3B8</color>
+    <color name="color_degradado_fin">#FFF8EC</color>
+    <color name="color_ripple">#40FFFFFF</color>
+
 </resources>

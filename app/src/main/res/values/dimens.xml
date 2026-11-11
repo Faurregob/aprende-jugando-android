@@ -20,5 +20,10 @@
     <!-- Alturas -->
     <dimen name="boton_alto">56dp</dimen>
     <dimen name="boton_alto_nino">88dp</dimen>
+
+    <dimen name="alto_tarjeta_mundo">120dp</dimen>
+    <dimen name="icono_mundo">56dp</dimen>
+    <dimen name="texto_mundo">28sp</dimen>
+
 </resources>
 
